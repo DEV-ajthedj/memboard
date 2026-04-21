@@ -1,2 +1,2 @@
 # memboard
-A custom development board aimed at maximizing the RAM of an RP2350A.
+A custom development board aimed at maximizing the RAM of an RP2354A.
