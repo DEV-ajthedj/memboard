@@ -11,3 +11,6 @@ In the future, I hope to make firmware to make this microcontroller stackable. T
 
 # Routing
 <img width="415" height="861" alt="image" src="https://github.com/user-attachments/assets/db7ea1f4-5cc5-4fc4-bd37-91ce62ae2038" />
+
+# Schematic
+<img width="1157" height="814" alt="image" src="https://github.com/user-attachments/assets/094c836e-d605-42df-b62c-d746563b95a1" />
