@@ -2560,6 +2560,171 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:PMEG2010BER"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PMEG2010BER"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG2010BER.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "20V, 1A low Vf MEGA Schottky barrier rectifier, SOD-123W"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "forward voltage diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Nexperia*CFP3*SOD?123W*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PMEG2010BER_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PMEG2010BER_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_RaspberryPi:RP2354A"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4988,12 +5153,6 @@
 		(uuid "9a411104-539b-44a3-b798-c79510a011f4")
 	)
 	(junction
-		(at 77.47 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c3d0931-47f3-41b3-9c92-100a27581b0d")
-	)
-	(junction
 		(at 63.5 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5052,6 +5211,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dcea64a3-d987-48a8-a654-5efa99724132")
+	)
+	(junction
+		(at 77.47 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e193f967-f54d-414f-94f7-95895b0219cd")
 	)
 	(junction
 		(at 246.38 118.11)
@@ -5577,16 +5742,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 27.94) (xy 77.47 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35bc5c5e-c618-4b05-88eb-3111122d7b6c")
-	)
-	(wire
-		(pts
 			(xy 25.4 111.76) (xy 27.94 111.76)
 		)
 		(stroke
@@ -5764,6 +5919,16 @@
 			(type default)
 		)
 		(uuid "4e746fff-83a4-4aa3-a700-ece57c22fdf7")
+	)
+	(wire
+		(pts
+			(xy 73.66 29.21) (xy 77.47 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f99bbba-c362-404f-b81e-1529b0a5faf8")
 	)
 	(wire
 		(pts
@@ -6387,7 +6552,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 29.21) (xy 77.47 29.21)
+			(xy 63.5 29.21) (xy 66.04 29.21)
 		)
 		(stroke
 			(width 0)
@@ -6504,6 +6669,16 @@
 			(type default)
 		)
 		(uuid "b3bbf53b-f587-4ceb-8a1b-6f90fb9977e4")
+	)
+	(wire
+		(pts
+			(xy 77.47 29.21) (xy 77.47 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b521130b-90f8-48cd-9c8b-5dcb92a662b2")
 	)
 	(wire
 		(pts
@@ -12825,6 +13000,86 @@
 			(project "memboard"
 				(path "/e4fac793-4acb-4ee2-a590-427dced759a1"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:PMEG2010BER")
+		(at 69.85 29.21 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97aba234-7c83-4b23-a7c9-dcfb31b3ecc8")
+		(property "Reference" "D1"
+			(at 70.1675 22.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PMEG2010BER"
+			(at 70.1675 25.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+			(at 69.85 24.765 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMEG2010BER.pdf"
+			(at 69.85 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "20V, 1A low Vf MEGA Schottky barrier rectifier, SOD-123W"
+			(at 69.85 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "18b4c3c7-ebb4-46c2-8521-9cb5782dc915")
+		)
+		(pin "1"
+			(uuid "6a74fb7c-b2c2-4fd8-b53d-47a3d02e5f4d")
+		)
+		(instances
+			(project "memboard"
+				(path "/e4fac793-4acb-4ee2-a590-427dced759a1"
+					(reference "D1")
 					(unit 1)
 				)
 			)
